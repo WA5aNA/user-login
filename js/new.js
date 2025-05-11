@@ -1,5 +1,5 @@
-import { isValidEmail,isValidMobile } from "./formvalidation.js";
-import { addUser, getAllUsers } from './storage.js';
+import { isValidEmail,isValidMobile } from "../formvalidation.js";
+import { addUser, getAllUsers } from '../storage.js';
 
 // const submittedUsers = [];
 document.addEventListener("DOMContentLoaded", () => {
